@@ -1,4 +1,124 @@
+/* work sans font */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif; 
+}
 nav{
     display: flex;
-    flex-direction: ;
+    justify-content: space-between;
+}
+header{
+background-color: aliceblue;
+padding: 50px 150px;
+}
+.banner{
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1000px;
+    height: 400px;
+    border-radius: 20px;
+  
+}
+.Explore-your-travel{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 90px;
+    font-weight: 600;
+}
+.The-besuty-of{
+    text-align: center;
+    color: aliceblue;
+    
+    font-weight: 200
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-weight: 500;
+}
+.orange{
+    color: rgb(250, 58, 0);
+}
+.find-bar{
+    
+    height: 40px;
+    display: flex;
+    gap: 20px; 
+}
+.find-now > button{
+    background-color: orangered;
+   width: 100px;
+   height: 30px;
+}
+.find-bar>.where-go{
+    text-align: center;
+}
+.where-go{
+    display: flex;
+   
+}
+.image-mountain{
+    border-radius: 20px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul>.mountain{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.read-me{
+  
+   
+}
+.two{
+    text-align: center;
+}
+.section-three-heading{
+    text-align: center;
+    font-weight: 600;
+}
+.banner-one{
+    margin-left: 500px;
+    margin-top: 20px;
+    background-image: url(Images/Group\ 39.png);
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 10px 200px;
+}
+.banner-two{
+    margin-left: 500px;
+    margin-top: 20px;
+    background-image: url(Images/Group\ 40.png);
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 10px 200px;
+}
+.banner-three{
+    margin-left: 500px;
+    margin-top: 20px;
+    background-image: url(Images/Group\ 39.png);
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 10px 200px;
+}
+.see-all-packages{
+background-color: #E6E6E6;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+}
+.see-more-button{
+    width: 100px;
+    height: 40px;
+    background-color: #E6E6E6;
 }
