@@ -122,3 +122,27 @@ background-color: #E6E6E6;
     height: 40px;
     background-color: #E6E6E6;
 }
+.video{
+    margin-right: 200px;
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+}
+.five{
+    display: flex;
+    justify-content: space-between;
+}
+.six{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter{
+    margin-left: 400px;
+}
+.travel.com{
+    margin-right: 300px;
+}
+footer{
+    text-align: center;
+}
